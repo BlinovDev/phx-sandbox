@@ -21,6 +21,12 @@ defmodule PhxsandboxWeb.Router do
     get "/info", PageController, :info
   end
 
+  scope "/articles", PhxsandboxWeb do
+    pipe_through :browser
+
+    get "/", ArticleController, :index
+  end
+
   # Other scopes may use custom stacks.
   # scope "/api", PhxsandboxWeb do
   #   pipe_through :api

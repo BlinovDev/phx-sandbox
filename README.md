@@ -1,4 +1,16 @@
-# Phxsandbox
+# phx-sandbox
+
+## Description
+
+This is my sandbox project to try out some Elixir features.
+
+## TODO
+
+- [ ] Articles;
+- [ ] Registration and authorisation;
+- [ ] User roles and permissions;
+
+## Phoenix built in guide
 
 To start your Phoenix server:
 
