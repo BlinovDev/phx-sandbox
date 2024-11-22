@@ -5,23 +5,30 @@
         <img src={~p"/images/logo.svg"} width="36" />
       </a>
       <p class="bg-brand/5 text-brand rounded-full px-2 font-medium leading-6">
+        Phxsandbox
+      </p>
+      
+      <a href={~p"/users"} class="hover:text-zinc-700">
+        Users
+      </a>
+      <a href={~p"/articles"} class="hover:text-zinc-700">
+        Articles
+      </a>
+    </div>
+    
+    <div class="flex items-center gap-4 leading-6 text-zinc-900">
+      <a href="https://github.com/BlinovDev" class="hover:text-zinc-700">
+        GitHub
+      </a>
+
+      <a href={~p"/info/Warsaw"} class="hover:text-zinc-700">
+        Info
+      </a>
+
+      <p class="bg-brand/5 text-brand rounded-full px-2 font-medium leading-6">
         v<%= Application.spec(:phoenix, :vsn) %>
       </p>
     </div>
-    <%!-- <div class="flex items-center gap-4 font-semibold leading-6 text-zinc-900"> --%>
-      <%!-- <a href="https://twitter.com/elixirphoenix" class="hover:text-zinc-700">
-        @elixirphoenix
-      </a> --%>
-      <%!-- <a href="https://github.com/phoenixframework/phoenix" class="hover:text-zinc-700">
-        GitHub
-      </a> --%>
-      <%!-- <a
-        href="https://hexdocs.pm/phoenix/overview.html"
-        class="rounded-lg bg-zinc-100 px-2 py-1 hover:bg-zinc-200/80"
-      >
-        Get Started <span aria-hidden="true">&rarr;</span>
-      </a> --%>
-    <%!-- </div> --%>
   </div>
 </header>
 <main class="px-4 py-20 sm:px-6 lg:px-8">
